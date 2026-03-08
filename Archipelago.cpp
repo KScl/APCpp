@@ -518,6 +518,10 @@ int AP_GetPlayerID() {
     return ap_player_id;
 }
 
+int AP_GetPlayerTeam() {
+    return ap_player_team;
+}
+
 void AP_BulkSetServerData(AP_SetServerDataRequest* request) {
     request->status = AP_RequestStatus::Pending;
 
